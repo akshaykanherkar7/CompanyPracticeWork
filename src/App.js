@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import AddTodoRedux from "./Components/TodoRedux/AddTodoRedux";
+// import Counter from "./Components/Counter";
+// import { CounterClass } from "./Components/CounterClassComponents";
+// import TicTac from "./Components/TicTac";
+// import AddTodo from "./Components/TodoContext/AddTodo";
+// import TogglingBTNs from "./Components/TogglingBTNs";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Counter></Counter> */}
+      {/* <TicTac></TicTac> */}
+      {/* <CounterClass></CounterClass> */}
+      {/* <AddTodo></AddTodo> */}
+      {/* <TogglingBTNs></TogglingBTNs> */}
+      <AddTodoRedux></AddTodoRedux>
     </div>
   );
 }
