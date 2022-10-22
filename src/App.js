@@ -1,5 +1,6 @@
 import "./App.css";
-import AddTodoRedux from "./Components/TodoRedux/AddTodoRedux";
+import SimpleAddTodo from "./Components/SimpleTodo/SimpleAddTodo";
+// import AddTodoRedux from "./Components/TodoRedux/AddTodoRedux";
 // import Counter from "./Components/Counter";
 // import { CounterClass } from "./Components/CounterClassComponents";
 // import TicTac from "./Components/TicTac";
@@ -14,7 +15,8 @@ function App() {
       {/* <CounterClass></CounterClass> */}
       {/* <AddTodo></AddTodo> */}
       {/* <TogglingBTNs></TogglingBTNs> */}
-      <AddTodoRedux></AddTodoRedux>
+      {/* <AddTodoRedux></AddTodoRedux> */}
+      <SimpleAddTodo></SimpleAddTodo>
     </div>
   );
 }
