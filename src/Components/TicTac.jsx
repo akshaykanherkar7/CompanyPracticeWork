@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const TicTac = () => {
-  const [grid, setGrid] = useState();
+  const [grid, setGrid] = useState(new Array(9).fill("."));
   const [turn, setTurn] = useState(false);
 
   const handleTurn = (i) => {
