@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 const Timer = () => {
   const [timer, setTimer] = useState(0);
   const [value, setValue] = useState(0);
-  const [toggle, setToggle] = useState(true);
+  const [toggle, setToggle] = useState(true); // true
 
   useEffect(() => {
     let id = setInterval(() => {
